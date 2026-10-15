@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "kicker": "The story of Globo Ads",
+    "titulo": "Big by nature.",
+    "subtitulo": "From a new way to advertise on Globo to a single end-to-end platform. Scroll through the journey — from now back to the beginning.",
+    "scrollHint": "Scroll to begin"
+  },
+
+  "manifesto": "Every delivery, a step forward. Together, **the country's largest advertising platform.**",
+
+  "capitulos": [
+    {
+      "id": "august",
+      "data": "August 2026",
+      "eyebrow": "The latest chapter",
+      "titulo": "New Creative Gallery",
+      "resumo": "A **centralized** hub for digital media. In one place, clients track approvals, reuse assets and set up batch submissions — less operation, more strategy.",
+      "media": { "tipo": "video", "src": "assets/video/jornada-nova-galeria.mp4", "poster": "imagens/jornada-nova-galeria-poster.jpg" },
+      "topicos": [
+        "Submission dashboard with color-coded status",
+        "Library to reuse approved creatives",
+        "New CPM and Daily buying flows"
+      ]
+    },
+    {
+      "id": "july",
+      "data": "July 2026",
+      "eyebrow": "Affiliates at the center",
+      "titulo": "Broadcast TV reach, for the whole country",
+      "resumo": "The new Affiliates profile gained Broadcast TV campaign results and Globo Impacto training — bringing Globo's national reach to every local market.",
+      "media": { "tipo": "imagem", "src": "imagens/perfil-executivo.png" },
+      "topicos": [
+        "New Affiliates profile",
+        "Broadcast TV results in the profile",
+        "Globo Impacto training"
+      ]
+    },
+    {
+      "id": "june",
+      "data": "June 2026",
+      "eyebrow": "Intelligence at the client's service",
+      "titulo": "AI goes live",
+      "resumo": "An AI assistant and a Creative Generator start supporting advertisers day to day, while copying previously purchased plans removes rework.",
+      "media": { "tipo": "imagem", "src": "imagens/assistente.png" },
+      "topicos": [
+        "AI assistant in production",
+        "AI Creative Generator",
+        "Copy previously purchased plans"
+      ]
+    }
+  ],
+
+  "eras": [
+    {
+      "ano": "2026",
+      "titulo": "The platform scales",
+      "resumo": "The start of the year consolidates digital buying and opens Globo Ads to new audiences.",
+      "itens": [
+        { "periodo": "Apr", "trilha": "GAA", "titulo": "Impression-based buying returns", "desc": "New CPM formats come back to digital, with more control over volume and schedule.", "imagem": "imagens/retorno-impressoes.png" },
+        { "periodo": "Apr", "trilha": "GAA", "titulo": "Buying opened to Direct Clients", "desc": "Advertisers without an agency can now buy directly on the platform.", "imagem": "imagens/perfil-executivo.png" },
+        { "periodo": "Apr", "trilha": "GAA", "titulo": "Globo Executives profile", "desc": "A dedicated view for the sales team to follow their clients." },
+        { "periodo": "Mar", "trilha": "GAA", "titulo": "Summer 2026 bundles", "desc": "Seasonal packages ready for the highest-audience season." },
+        { "periodo": "Mar", "trilha": "GAA", "titulo": "Real-time digital order status", "desc": "Delivery tracking no longer depends on emails." },
+        { "periodo": "Mar", "trilha": "GAA", "titulo": "Station and point-of-sale selection", "desc": "Greater geographic precision when building campaigns." },
+        { "periodo": "Mar", "trilha": "GAA", "titulo": "Help and Support Center", "desc": "Self-service and support built into the journey." }
+      ]
+    },
+    {
+      "ano": "2025",
+      "titulo": "A new journey",
+      "resumo": "Globo Ads matures: a single identity, a new digital journey and the first steps of AI.",
+      "itens": [
+        { "periodo": "Q4", "trilha": "GAA", "titulo": "Amplified Commercial", "desc": "Broadcast TV extends to Globoplay, expanding campaign reach.", "imagem": "imagens/comercial-amplificado.png" },
+        { "periodo": "Q4", "trilha": "GAA", "titulo": "Summer bundles buying", "desc": "The first seasonal packages arrive on the platform." },
+        { "periodo": "Q4", "trilha": "PME", "titulo": "New performance metrics (VTR)", "desc": "Richer measurement for small and mid-sized advertisers." },
+        { "periodo": "Sep", "trilha": "Marco", "titulo": "GlobID migration", "desc": "A single sign-on identity across all of Globo.", "destaque": true },
+        { "periodo": "Q3", "trilha": "GAA", "titulo": "Standalone digital media via CPM", "desc": "Impression-based buying comes to digital as a standalone option." },
+        { "periodo": "Q3", "trilha": "GAA", "titulo": "App relaunch with Globo Antecipa", "desc": "The app returns redesigned, with receivables advance." },
+        { "periodo": "Q3", "trilha": "PME", "titulo": "New digital journey", "desc": "A buying experience rethought end to end." },
+        { "periodo": "Q1", "trilha": "PME", "titulo": "AI Creative Generator", "desc": "The first AI-generated images inside the journey.", "imagem": "imagens/gerador-criativos-2.png" }
+      ]
+    },
+    {
+      "ano": "2024",
+      "titulo": "The beginning",
+      "resumo": "It all starts with a simple idea: bring Globo's advertising together in one place.",
+      "itens": [
+        { "periodo": "Q4", "trilha": "PME", "titulo": "Creative Gallery", "desc": "The first asset-management experience — the seed of what would become the New Gallery.", "imagem": "imagens/galeria-criativos.png" },
+        { "periodo": "Q3", "trilha": "GAA", "titulo": "Globo Impacto with 7 days", "desc": "The high-impact format arrives on the platform.", "imagem": "imagens/globo-impacto.png" },
+        { "periodo": "Q3", "trilha": "PME", "titulo": "Incentive rate card for affiliates", "desc": "Affiliates join the journey with their own terms." },
+        { "periodo": "Q2", "trilha": "GAA", "titulo": "Digital Daily buying", "desc": "The first end-to-end digital buying flow." },
+        { "periodo": "Q2", "trilha": "GAA", "titulo": "Globo Player for creatives", "desc": "A place to submit and review digital assets." },
+        { "periodo": "Q2", "trilha": "PME", "titulo": "A new journey inside Globo Ads", "desc": "The GloboSIM SMB migration marks the birth of the unified platform.", "destaque": true }
+      ]
+    }
+  ],
+
+  "fechamento": {
+    "kicker": "And this is only the beginning",
+    "titulo": "The next chapter is already being written."
+  }
+}

@@ -1,0 +1,107 @@
+/* ============================================================
+   GLOBO ADS — COLOR TOKENS
+   Base palette measured from brand assets (rainbow spectrum bar,
+   purple→blue gradient icons, slate line work, light surfaces).
+   ============================================================ */
+
+:root {
+  /* ---- Globo Spectrum (the signature rainbow bar) -------------
+     Measured stops, left→right: blue → indigo → violet → purple →
+     magenta → red → orange → amber. Used as the brand's hero
+     gradient and the fixed footer bar across all surfaces.        */
+  --spectrum-blue:    #05A6FF;
+  --spectrum-blue-2:  #2380FD;
+  --spectrum-indigo:  #4F49FB;
+  --spectrum-violet:  #7B12F9;
+  --spectrum-purple:  #8E01EC;
+  --spectrum-magenta: #C2068E;
+  --spectrum-pink:    #E40950;
+  --spectrum-red:     #FF191E;
+  --spectrum-orange:  #FF5416;
+  --spectrum-amber:   #FF8F0E;
+  --spectrum-gold:    #FFAC0B;
+
+  /* ---- Brand accent ramp (purple → blue) ----------------------
+     The most-used gradient in decks & icons. Solid stops below,
+     gradient tokens in effects.css.                               */
+  --violet-50:  #F4ECFE;
+  --violet-100: #E7D6FD;
+  --violet-200: #D0AEFB;
+  --violet-300: #B985F9;
+  --violet-400: #A24DFF;   /* icon top-left highlight */
+  --violet-500: #7B12F9;   /* primary violet */
+  --violet-600: #6B0FD8;
+  --violet-700: #560BAC;
+  --violet-800: #410882;
+
+  --blue-50:  #E8F1FF;
+  --blue-100: #CFE2FF;
+  --blue-200: #9FC2FF;
+  --blue-300: #5C92FF;
+  --blue-400: #3B6BFF;
+  --blue-500: #2380FD;   /* primary blue */
+  --blue-600: #1366E0;
+  --blue-700: #0E4FB0;
+  --blue-800: #0A3B85;
+
+  /* indigo bridge between violet & blue (gradient midpoint) */
+  --indigo-500: #4F49FB;
+
+  /* ---- Neutrals (slate) ---------------------------------------
+     Line-icon stroke colour, text, and UI chrome.                 */
+  --slate-950: #1A1C25;
+  --slate-900: #22242F;
+  --slate-800: #2D3142;   /* primary ink — matches icon line work */
+  --slate-700: #3C4154;
+  --slate-600: #565C72;
+  --slate-500: #767D94;
+  --slate-400: #9AA0B4;
+  --slate-300: #C2C6D4;
+  --slate-200: #DFE2EA;
+  --slate-100: #EEF0F4;
+  --slate-50:  #F6F7F9;
+
+  --white: #FFFFFF;
+  --canvas: #F2F2F2;   /* the Globo light-gray document canvas */
+
+  /* ---- Semantic status ---------------------------------------- */
+  --success-500: #1F9D57;
+  --success-50:  #E6F6EC;
+  --warning-500: #FF8F0E;   /* reuses spectrum amber */
+  --warning-50:  #FFF3E0;
+  --danger-500:  #FF191E;   /* reuses spectrum red */
+  --danger-50:   #FFEAEA;
+  --info-500:    #2380FD;   /* reuses spectrum blue */
+  --info-50:     #E8F1FF;
+
+  /* ============================================================
+     SEMANTIC ALIASES — reference these in product UI
+     ============================================================ */
+  --bg-canvas:        var(--canvas);
+  --bg-surface:       var(--white);
+  --bg-surface-2:     var(--slate-50);
+  --bg-surface-sunken: var(--slate-100);
+  --bg-inverse:       var(--slate-900);
+
+  --text-primary:     var(--slate-800);
+  --text-secondary:   var(--slate-600);
+  --text-muted:       var(--slate-500);
+  --text-disabled:    var(--slate-400);
+  --text-inverse:     var(--white);
+  --text-on-accent:   var(--white);
+  --text-link:        var(--blue-600);
+
+  --border-subtle:    var(--slate-200);
+  --border-default:   var(--slate-300);
+  --border-strong:    var(--slate-400);
+  --border-focus:     var(--violet-500);
+
+  --accent:           var(--violet-500);
+  --accent-hover:     var(--violet-600);
+  --accent-press:     var(--violet-700);
+  --accent-soft:      var(--violet-50);
+  --accent-blue:      var(--blue-500);
+
+  --surface-card:     var(--white);
+  --surface-overlay:  rgba(26, 28, 37, 0.55);
+}

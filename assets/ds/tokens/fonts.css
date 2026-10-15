@@ -1,0 +1,45 @@
+/* ============================================================
+   GLOBO ADS — WEB FONTS
+   ------------------------------------------------------------
+   SUBSTITUTION NOTICE
+   The Globo brand face is the proprietary "GlobotipoTexto /
+   Globotipo" family, which is not redistributable. This system
+   ships Manrope (a geometric-humanist sans with very close
+   metrics) as a stand-in for the UI/display face, and IBM Plex
+   Mono for tabular numerics / metric callouts.
+   When you license Globotipo, drop its woff2 files in
+   assets/ds/fonts/ and add matching @font-face rules here; the
+   --font-display / --font-sans tokens already list Globotipo as
+   the first preferred family.
+   ============================================================ */
+
+/* Manrope is a variable font — one file covers weights 400–800. */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("../fonts/Manrope.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/IBMPlexMono-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/IBMPlexMono-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/IBMPlexMono-600.woff2") format("woff2");
+}

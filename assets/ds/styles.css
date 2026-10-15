@@ -1,0 +1,12 @@
+/* ============================================================
+   GLOBO ADS — DESIGN SYSTEM
+   Global entry point. Consumers link this one file.
+   Keep this as an @import list only — no rules here.
+   ============================================================ */
+
+@import "tokens/fonts.css";
+@import "tokens/colors.css";
+@import "tokens/typography.css";
+@import "tokens/spacing.css";
+@import "tokens/effects.css";
+@import "tokens/base.css";

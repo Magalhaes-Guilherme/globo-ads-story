@@ -1,0 +1,67 @@
+/* ============================================================
+   GLOBO ADS — BASE
+   Light document reset + a few brand-level helpers. Keep minimal;
+   product styling lives on components.
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text-primary);
+  background: var(--bg-canvas);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-tight);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+p { margin: 0; text-wrap: pretty; }
+
+a { color: var(--text-link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---- Brand helpers ----------------------------------------- */
+
+/* Spectrum text fill — the rainbow gradient clipped to glyphs. */
+.globo-spectrum-text {
+  background: var(--gradient-spectrum);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Accent (purple→blue) text fill. */
+.globo-accent-text {
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* The signature footer bar — 6px full-bleed spectrum stripe. */
+.globo-spectrum-bar {
+  height: var(--spectrum-bar-h);
+  width: 100%;
+  background: var(--gradient-spectrum);
+}
+
+/* Uppercase eyebrow / overline label. */
+.globo-overline {
+  font-size: var(--fs-overline);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-overline);
+  text-transform: uppercase;
+  color: var(--text-muted);
+}

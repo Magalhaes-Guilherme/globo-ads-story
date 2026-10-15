@@ -1,0 +1,48 @@
+/* ============================================================
+   GLOBO ADS — EFFECTS: gradients, shadows, transitions, blur
+   ============================================================ */
+
+:root {
+  /* ---- Signature gradients ----------------------------------- */
+  /* The hero spectrum — used full-bleed, as text fill, and as the
+     fixed 6px footer bar that signs every Globo surface.          */
+  --gradient-spectrum: linear-gradient(
+    90deg,
+    #05A6FF 0%, #2380FD 12%, #4F49FB 24%, #7B12F9 36%,
+    #8E01EC 46%, #C2068E 58%, #E40950 68%, #FF191E 78%,
+    #FF5416 87%, #FF8F0E 94%, #FFAC0B 100%
+  ); /* @kind color */
+
+  /* The everyday attention gradient (purple → blue). 135deg to
+     match the diagonal of the brand's icon set.                   */
+  --gradient-accent: linear-gradient(135deg, #A24DFF 0%, #7B12F9 38%, #4F49FB 70%, #2380FD 100%); /* @kind color */
+  --gradient-accent-soft: linear-gradient(135deg, #F4ECFE 0%, #E8F1FF 100%); /* @kind color */
+  --gradient-accent-vert: linear-gradient(180deg, #7B12F9 0%, #2380FD 100%); /* @kind color */
+
+  /* Subtle surface sheen for hero cards on the light canvas */
+  --gradient-surface: linear-gradient(180deg, #FFFFFF 0%, #F6F7F9 100%); /* @kind color */
+
+  /* ---- Shadows ----------------------------------------------- */
+  /* Cool, low-spread, tinted with slate — never pure black.       */
+  --shadow-xs:  0 1px 2px rgba(45, 49, 66, 0.06);
+  --shadow-sm:  0 1px 3px rgba(45, 49, 66, 0.08), 0 1px 2px rgba(45, 49, 66, 0.05);
+  --shadow-md:  0 4px 12px rgba(45, 49, 66, 0.08), 0 2px 4px rgba(45, 49, 66, 0.05);
+  --shadow-lg:  0 12px 28px rgba(45, 49, 66, 0.12), 0 4px 8px rgba(45, 49, 66, 0.06);
+  --shadow-xl:  0 24px 56px rgba(45, 49, 66, 0.16);
+  /* Coloured glow for accent / focus moments */
+  --shadow-accent: 0 8px 24px rgba(123, 18, 249, 0.28);
+  --focus-ring: 0 0 0 3px rgba(123, 18, 249, 0.30);
+
+  /* ---- Motion ------------------------------------------------- */
+  --ease-standard: cubic-bezier(0.4, 0.0, 0.2, 1); /* @kind other */
+  --ease-out:      cubic-bezier(0.0, 0.0, 0.2, 1); /* @kind other */
+  --ease-in:       cubic-bezier(0.4, 0.0, 1, 1); /* @kind other */
+  --ease-spring:   cubic-bezier(0.34, 1.56, 0.64, 1); /* @kind other */
+  --dur-fast:   120ms; /* @kind other */
+  --dur-base:   200ms; /* @kind other */
+  --dur-slow:   320ms; /* @kind other */
+
+  /* ---- Blur (overlays, sticky chrome) ---- */
+  --blur-sm: 6px; /* @kind other */
+  --blur-md: 14px; /* @kind other */
+}

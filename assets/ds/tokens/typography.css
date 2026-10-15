@@ -1,0 +1,57 @@
+/* ============================================================
+   GLOBO ADS — TYPOGRAPHY TOKENS
+   Brand face is the proprietary "GlobotipoTexto / Globotipo"
+   (humanist geometric sans). Not redistributable, so this system
+   substitutes Manrope (geometric humanist, very close metrics) as
+   the workhorse and IBM Plex Mono for tabular data / metrics.
+   --> SUBSTITUTION FLAGGED: replace with Globotipo web fonts when
+       licensed.  See @font-face in fonts.css.
+   ============================================================ */
+
+:root {
+  /* ---- Families ---- */
+  --font-display: "Manrope", "GlobotipoTexto", system-ui, sans-serif;
+  --font-sans:    "Manrope", "GlobotipoTexto", system-ui, sans-serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* ---- Weights ---- */
+  --fw-regular:  400; /* @kind font */
+  --fw-medium:   500; /* @kind font */
+  --fw-semibold: 600; /* @kind font */
+  --fw-bold:     700; /* @kind font */
+  --fw-extra:    800; /* @kind font */
+
+  /* ---- Type scale (1.250 major-third, 16px base) ----
+     Each token pairs a size with a sensible line-height.          */
+  --fs-display-xl: 76px; /* @kind font */
+  --lh-display-xl: 1.02; /* @kind font */
+  --fs-display-l:  56px; /* @kind font */
+  --lh-display-l:  1.05; /* @kind font */
+  --fs-display-m:  40px; /* @kind font */
+  --lh-display-m:  1.10; /* @kind font */
+  --fs-h1:         32px; /* @kind font */
+  --lh-h1: 1.15; /* @kind font */
+  --fs-h2:         26px; /* @kind font */
+  --lh-h2: 1.20; /* @kind font */
+  --fs-h3:         21px; /* @kind font */
+  --lh-h3: 1.25; /* @kind font */
+  --fs-h4:         18px; /* @kind font */
+  --lh-h4: 1.30; /* @kind font */
+  --fs-body-lg:    17px; /* @kind font */
+  --lh-body-lg: 1.55; /* @kind font */
+  --fs-body:       15px; /* @kind font */
+  --lh-body: 1.55; /* @kind font */
+  --fs-body-sm:    13px; /* @kind font */
+  --lh-body-sm: 1.50; /* @kind font */
+  --fs-caption:    12px; /* @kind font */
+  --lh-caption: 1.40; /* @kind font */
+  --fs-overline:   11px; /* @kind font */
+  --lh-overline: 1.30; /* @kind font */
+
+  /* ---- Letter spacing ---- */
+  --ls-tight:   -0.02em; /* @kind font */
+  --ls-snug:    -0.01em; /* @kind font */
+  --ls-normal:   0; /* @kind font */
+  --ls-wide:     0.04em; /* @kind font */
+  --ls-overline: 0.12em; /* @kind font */
+}
